@@ -1,0 +1,81 @@
+body {
+    background-color: #f8f8f8;
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin-top:20px;
+    background-color: #f8f8f8; /* ou qualquer cor de fundo que você preferir */
+    padding: 10px 0;
+    padding: 22px 15%;
+}
+
+.logo{
+    text-decoration: none;
+    color: black;
+    margin-left: 65px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center; /* Alinha o conteúdo da navbar ao centro */
+    align-items: center; /* Centraliza verticalmente os itens */
+}
+
+.cabecalho .logo {
+    font-size:35px;
+    margin-right: auto; /* Empurra a logo para a esquerda */
+}
+
+.cabecalho .logo span{
+    color: blue;
+ }
+
+.cabecalho .navlist {
+    font-size: 20px;
+    display: flex; /* Alinha os itens horizontalmente */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    h
+}
+
+.cabecalho .navlist li {
+    margin: 0 50px; /* Espaçamento entre os itens da lista */
+}
+
+.cabecalho .navlist li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+
+.home{
+    margin-left:60px;
+    padding: 22px 15%;
+
+}
+
+.homeinicial strong{
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+
+}
+
+.homeinicial h3{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.home h1{
+    font-size:50px;
+    font-weight:300;
+}
+
+.home p{
+    font-size:30px;
+}
