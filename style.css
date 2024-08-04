@@ -109,12 +109,10 @@ main{
 }
 
 .github{
-    height: 55px;
-    padding-top:4px;
+    height: 60px;
     padding-left:10px;
 }
 footer{
     text-align: center;
     color:black;   
 }
-
