@@ -1,72 +1,88 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
 body {
-    background-color: #f8f8f8;
+    background: linear-gradient(#D3D3D3,#FFFFFF,#D3D3D3);
     font-family: Poppins, sans-serif;
     margin: 0;
     padding: 0;
 
 }
 
-.navbar {
-    margin-top:20px;
-    background-color: #f8f8f8; 
-    padding: 10px 0;
-    padding: 22px 15%;
+
+h1{
+    font-size:30px;
+    font-weight: 300;
+    letter-spacing:5px;
 }
 
-.logo{
-    text-decoration: none;
-    color: black;
-    margin-left: 65px;
+span{
+    color:blue;
 }
 
-.cabecalho {
-    display: flex;
-    justify-content: center; 
-    align-items: center;
+a{
+    color:black;
+    text-decoration:none;
+    transition:0.3s;
+
 }
 
-.cabecalho .logo {
-    font-size:35px;
-    margin-right: auto;
-}
 
-.cabecalho .logo span{
+a:hover{
     color: blue;
- }
-
-.cabecalho .navlist {
-    font-size: 20px;
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    h
 }
 
-.cabecalho .navlist li {
-    margin: 0 50px;
+nav{
+    margin-top: 15px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height:8vh;
+
 }
 
-.cabecalho .navlist li a {
-    text-decoration: none;
-    color: black;
-    font-weight: 500;
-}
 
 main{
     height: 80vh;
+
 }
 
+.nav-list{
+    list-style:none;
+    display:flex;
+}
+
+.nav-list li{
+    font-size: 17px;
+    letter-spacing: 4px;
+    margin-left:40px
+}
+
+.mobile-menu{
+    display:none;
+    cursor:pointer
+}
+
+.mobile-menu div{
+    width: 32px;
+    height:2px;
+    background:black;
+    margin:8px;
+
+}
 
 .home{
-    margin-top:30px;
+    margin-top:80px;
     margin-left:60px;
     padding: 22px 15%;
 
 }
 
 .homeinicial strong{
-    background-color: blue;
+    background-color:blue;
     color: white;
     border-radius: 3px;
 
@@ -94,6 +110,7 @@ main{
 }
 
 .btn-cv{
+    cursor: pointer;
     background-color:#f8f8f8;
     padding:10px;
     border-color: blue;
@@ -116,3 +133,4 @@ footer{
     text-align: center;
     color:black;   
 }
+
